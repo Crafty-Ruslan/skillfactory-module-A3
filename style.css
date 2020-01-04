@@ -33,11 +33,11 @@ footer {
     color: lightgray;
     height: 80px;     
 }
-/*header {
+header {
     width: 100%;
     position: fixed;
     top: -4px;   
-}*/
+}
 
 header img {
     height: 80px;
@@ -82,10 +82,12 @@ footer ul li {
    justify-content: center;
     align-items: center;
 }
-
+.blank{
+    height: 75px;
+}
 .row {
     max-width: 840px;
-    margin: 10 auto;
+    margin: 15 auto;
     background-color: white;
     border-radius: 12px;
     padding: 10px 20px;
